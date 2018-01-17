@@ -2,73 +2,73 @@
   {
     "id": 1,
     "name": "Link",
-    "image": "./assets/images/Andorian.jpg",
+    "image": "./images/link.jpg",
     "clicked": false
   },
   {
     "id": 2,
     "name": "Princess Zelda",
-    "image": "./assets/images/Balok.jpg",
+    "image": "./images/zelda.png",
     "clicked": false
   },
   {
     "id": 3,
     "name": "Ganondorf",
-    "image": "./assets/images/Gorn.jpg",
+    "image": "./images/ganondorf.jpeg",
     "clicked": false
   },
   {
     "id": 4,
     "name": "Epona",
-    "image": "./assets/images/Keeper.jpg",
+    "image": "./images/epona.jpeg",
     "clicked": false
   },
   {
     "id": 5,
     "name": "Great Deku Tree",
-    "image": "./assets/images/Melkotion.jpg",
+    "image": "./images/deku-tree1.png",
     "clicked": false
   },
   {
     "id": 6,
     "name": "Malon",
-    "image": "./assets/images/Vina.jpg",
+    "image": "./images/malon.jpg",
     "clicked": false
   },
   {
     "id": 7,
     "name": "Princess Ruto",
-    "image": "./assets/images/obedience.jpg",
+    "image": "./images/ruto.png",
     "clicked": false
   },
   {
     "id": 8,
     "name": "Nabooru",
-    "image": "./assets/images/Ruk.jpg",
+    "image": "./images/nabooru.jpg",
     "clicked": false
   },
   {
     "id": 9,
     "name": "Impa",
-    "image": "./assets/images/Scotty.jpg",
+    "image": "./images/impa.png",
     "clicked": false
   },
   {
     "id": 10,
     "name": "Darunia",
-    "image": "./assets/images/Kor.jpg",
+    "image": "./images/Darunia.png",
     "clicked": false
   },
   {
     "id": 11,
     "name": "Happy Mask Salesman",
-    "image": "./assets/images/Spock-Good.jpg",
+    "image": "./images/happymasksalesman.jpeg",
     "clicked": false
   },
   {
     "id": 12,
     "name": "Saria",
-    "image": "./assets/images/Uhura.jpg",
+    "image": "./images/Saria_real.png",
     "clicked": false
   }
 ]

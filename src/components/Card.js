@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = props => {
+const Card = props => (
 	<div 
 		style={styles.cardStyle}
 		onClick={() => props.setClicked(props.id)}>
@@ -25,7 +25,7 @@ const Card = props => {
 	      </ul>
 	    </div>
   </div>
-}
+);
 
 const styles = {
 	cardStyle: {
@@ -53,7 +53,8 @@ const styles = {
 		fontSize: '15px'
 	},
 	liContent: {
-		marginTop: '18px'
+		marginTop: '18px',
+		listStyleType: 'none'
 	}
 };
 
