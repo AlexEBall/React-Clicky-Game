@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Link",
+    "image": "./assets/images/Andorian.jpg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "Princess Zelda",
+    "image": "./assets/images/Balok.jpg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "Ganondorf",
+    "image": "./assets/images/Gorn.jpg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "Epona",
+    "image": "./assets/images/Keeper.jpg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "Great Deku Tree",
+    "image": "./assets/images/Melkotion.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "Malon",
+    "image": "./assets/images/Vina.jpg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "Princess Ruto",
+    "image": "./assets/images/obedience.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "Nabooru",
+    "image": "./assets/images/Ruk.jpg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "Impa",
+    "image": "./assets/images/Scotty.jpg",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "name": "Darunia",
+    "image": "./assets/images/Kor.jpg",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "name": "Happy Mask Salesman",
+    "image": "./assets/images/Spock-Good.jpg",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "name": "Saria",
+    "image": "./assets/images/Uhura.jpg",
+    "clicked": false
+  }
+]
