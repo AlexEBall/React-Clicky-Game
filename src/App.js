@@ -19,7 +19,7 @@ class App extends Component {
 
 	setClicked = id => {
 		const Characters = this.state.Characters;
-		const cardClicked = Characters.fliter(Character => Character.id === id);
+		const cardClicked = Characters.filter(Character => Character.id === id);
 
 		if (cardClicked[0].clicked) {
 
@@ -55,10 +55,17 @@ class App extends Component {
 	};
 
     render() {
-    	// console.log(Characters);
+
         return ( 
         	<Wrapper>
+        		<div>
+        			<h2>Click on an image to earn points, but don't click on any of them more than once!</h2>
+        			<h3>{this.state.message}</h3>
+        			<h3>Correct Guesses: {this.state.guessesCorrect}</h3>
+        			<h3>Top Score: {this.state.topScore}</h3>
+        		</div>
             	<Title>Guessing Game</Title>
+            	<div className="row">
             		{this.state.Characters.map(Character => (
             			<Card 
             				setClicked={this.setClicked}
@@ -67,6 +74,7 @@ class App extends Component {
             				image={Character.image}
             			/>
             		))}
+            	</div>
             </Wrapper>
         );
     }
