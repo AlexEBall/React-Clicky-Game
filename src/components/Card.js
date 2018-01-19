@@ -34,7 +34,7 @@ const styles = {
 		height: '325px',
 		margin: '1rem',
 		position: 'relative',
-		width: '325px',
+		width: '225px',
 		boxShadow: '0 3px 6px #999, 0 3px 6px #999',
 		textAligh: 'left'
 	},
