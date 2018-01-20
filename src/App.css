@@ -1,13 +1,18 @@
+.row {
+  margin: 0 0 0 1.5rem;
+}
+
 .hero {
   height: 400px;
   background-image: linear-gradient(
     to right bottom,
-    rgba(57, 160, 237, 0.8), 
-    rgba(19, 41, 61, 0.8)), 
+    rgba(17, 3, 9, 0.6), 
+    rgba(233, 241, 247, 0.6)), 
   url(http://cdn2.pu.nl/media/games/zelda_wii_u/legend-of-zelda-wii-u.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
+  border: 10px solid #714C1D
 }
 
 .heroText {

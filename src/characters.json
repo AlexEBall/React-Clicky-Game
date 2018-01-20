@@ -25,8 +25,8 @@
   },
   {
     "id": 5,
-    "name": "Great Deku Tree",
-    "image": "./images/deku-tree1.png",
+    "name": "Sheik",
+    "image": "./images/sheik.png",
     "clicked": false
   },
   {

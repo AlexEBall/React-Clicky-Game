@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = props => (
+const Player = props => (
 	<div 
 		style={styles.cardStyle}
 		onClick={() => props.setClicked(props.id)}>
@@ -16,21 +16,12 @@ const Card = props => (
 
 const styles = {
 	cardStyle: {
-	// 	background: '#fff',
-	// 	borderRadius: '2px',
-	// 	height: '325px',
 		margin: '0.7rem'
-	// 	position: 'relative',
-	// 	width: '225px',
-	// 	boxShadow: '0 3px 6px #999, 0 3px 6px #999',
-	// 	textAligh: 'left'
 	},
 	imgContainer: {
 		height: '16rem',
 		width: '10rem',
-		// overflow: 'hidden',
-		textAlign: 'center',
-		// background: '#6caddc'
+		textAlign: 'center'
 	},
 	img: {
 		height: '100%',
@@ -38,4 +29,4 @@ const styles = {
 	}
 };
 
-export default Card;
+export default Player;

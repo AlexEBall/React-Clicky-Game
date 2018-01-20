@@ -10,13 +10,13 @@ html {
 	font-size: 62.5%;
 }
  
-body,
-#root  {
+body  {
 	padding: 0;
 	margin: 0;
 	height: 100%;
 	line-height: 1.7;
 	color: #fff;
 	padding: 1rem;
+	background: url(./images/background.png);
 	box-sizing: border-box;
 }

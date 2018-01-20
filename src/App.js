@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Line } from 'rc-progress';
 import Wrapper from "./components/Wrapper";
-// import Title from "./components/Title";
-import Card from './components/Card';
+import Player from './components/Player';
 import Characters from './characters.json';
 import './App.css';
 
@@ -95,12 +94,13 @@ class App extends Component {
     			</div>
             	<div className="row">
             		{this.state.Characters.map(Character => (
-            			<Card 
+            			<Player
             				setClicked={this.setClicked}
             				id={Character.id}
             				key={Character.id}
             				image={Character.image}
             				name={Character.name}
+            				className="col-sm-1"
             			/>
             		))}
             	</div>
