@@ -11,50 +11,30 @@ const Card = props => (
 	        src={props.image}
 	      />
 	    </div>
-	    <div>
-	      <ul style={styles.ulContent}>
-	        <li style={styles.liContent}>
-	          <strong>Name:</strong> {props.name}
-	        </li>
-	        <li style={styles.liContent}>
-	          <strong>Occupation:</strong> {props.occupation}
-	        </li>
-	        <li style={styles.liContent}>
-	          <strong>Location:</strong> {props.location}
-	        </li>
-	      </ul>
-	    </div>
   </div>
 );
 
 const styles = {
 	cardStyle: {
-		background: '#fff',
-		borderRadius: '2px',
-		height: '325px',
-		margin: '1rem',
-		position: 'relative',
-		width: '225px',
-		boxShadow: '0 3px 6px #999, 0 3px 6px #999',
-		textAligh: 'left'
+	// 	background: '#fff',
+	// 	borderRadius: '2px',
+	// 	height: '325px',
+		margin: '0.7rem'
+	// 	position: 'relative',
+	// 	width: '225px',
+	// 	boxShadow: '0 3px 6px #999, 0 3px 6px #999',
+	// 	textAligh: 'left'
 	},
 	imgContainer: {
-		height: '60%',
-		overflow: 'hidden',
+		height: '16rem',
+		width: '10rem',
+		// overflow: 'hidden',
 		textAlign: 'center',
-		background: '#6caddc'
+		// background: '#6caddc'
 	},
 	img: {
-		width: '60%'
-	},
-	ulContent: {
-		paddingLeft: '1rem',
-		paddingRight: '1rem',
-		fontSize: '15px'
-	},
-	liContent: {
-		marginTop: '18px',
-		listStyleType: 'none'
+		height: '100%',
+		width: '100%'
 	}
 };
 

@@ -1,20 +1,5 @@
 import React from "react";
 
-const Wrapper = props => <div style={styles.wrapper}>{props.children}</div>;
-
-const styles = {
-	wrapper: {
-	  paddingTop: '50px',
-	  background: '#ECEFF1',
-	  height: '100%',
-	  // display: 'flex',
-	  // flex: '1',
-	  flexDirection: 'row',
-	  padding: '20px',
-	  justifyContent: 'space-around',
-	  alignItems: 'flex-start',
-	  overflow: 'auto'
-	}
-}
+const Wrapper = props => <div>{props.children}</div>;
 
 export default Wrapper;

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Line } from 'rc-progress';
-// import { toArray} from 'react-emoji-render';
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+// import Title from "./components/Title";
 import Card from './components/Card';
 import Characters from './characters.json';
 import './App.css';
@@ -10,7 +9,6 @@ import './App.css';
 
 let topScore = 0;
 let guessesCorrect = 0;
-let heartArray = [];
 let hearts = 0;
 let message = "Click a character to begin";
 
@@ -18,7 +16,6 @@ class App extends Component {
 
 	state = {
 		Characters,
-		heartArray,
 		topScore,
 		guessesCorrect,
 		message, 
@@ -42,6 +39,7 @@ class App extends Component {
 			this.setState({message});
 			this.setState({guessesCorrect});
 			this.setState({Characters});
+
 		} else {
 			cardClicked[0].clicked = true;
 
@@ -55,8 +53,6 @@ class App extends Component {
 				this.setState({topScore});
 				this.renderHearts();
 			}
-			// topScore++;
-			// this.renderHearts();
 
 			Characters.sort((a, b) => {
 				return 0.5 - Math.random();
@@ -82,20 +78,21 @@ class App extends Component {
 
         return ( 
         	<Wrapper>
-        		<div>
-        			<h2>Click on an image to earn points, but don't click on any of them more than once!</h2>
-        			<h3>{this.state.message}</h3>
-        			<h3>Top Score: {this.state.topScore}</h3>
-        			<div className="heartWrapper">
-        			{this.renderHearts()}
-        			</div>
-        			<Line 
-        			percent={this.state.guessesCorrect}
-        			trailWidth="4" 
-        			strokeWidth="4" 
-        			strokeColor="#87df6f" />
-        		</div>
-            	<Title>Guessing Game</Title>
+    			<div className="hero">
+    				<div className="heroText">
+    					<h1 className="banner">The Legend of Zelda Click Game</h1>
+        				<h3 className="rules">Click on an image to earn points, but don't click on any of them more than once!</h3>
+        				<h3 className="message">{this.state.message}</h3>
+    				</div>
+					<div className="heartWrapper">
+    				{this.renderHearts()}
+    				<Line 
+	        			percent={this.state.guessesCorrect}
+	        			trailWidth="4" 
+	        			strokeWidth="4" 
+	        			strokeColor="#87df6f" />
+    				</div>
+    			</div>
             	<div className="row">
             		{this.state.Characters.map(Character => (
             			<Card 
@@ -111,16 +108,5 @@ class App extends Component {
         );
     }
 };
-
-// const styles = {
-// 	heartWrapper: {
-// 		position: 'absolute',
-//   		top: '50%',
-//   		left: '0',
-//   		width: '100%',
-//   		marginTop: '-2em',
-//   		fontSize: '5px'
-// 	}
-// }
 
 export default App;

@@ -1,17 +1,54 @@
+.hero {
+  height: 400px;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(57, 160, 237, 0.8), 
+    rgba(19, 41, 61, 0.8)), 
+  url(http://cdn2.pu.nl/media/games/zelda_wii_u/legend-of-zelda-wii-u.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.heroText {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner {
+  display: block;
+  font-size: 4vw;
+  padding-top: 30px;
+  font-family: Cinzel Decorative;
+  font-weight: 700;
+  color: #C90024;
+  text-shadow: 2px 5px 4px black;
+}
+
+.rules,
+.message {
+  display: block;
+  font-size: 2rem;
+}
+
 .heartWrapper {
-  /*position: absolute;*/
-  top: 50%;
-  left: 0;
-  width: 100%;
+  top: 30rem;
+  left: 1rem;
+  width: 50%;
+  height: 2rem;
   margin-top: -2em;
   font-size: 5px;
+  position: absolute;
 }
 
 .heart {
   display: inline-block;
   width: 1em;
   height: 1em;
-  margin: 0 7em;
+  margin: 0 7em 4rem 2rem;
   background: #a52a21;
   box-shadow:
     /* white shine */

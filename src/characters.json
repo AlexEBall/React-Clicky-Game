@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Link",
-    "image": "./images/link.jpg",
+    "image": "./images/link.png",
     "clicked": false
   },
   {
@@ -14,13 +14,13 @@
   {
     "id": 3,
     "name": "Ganondorf",
-    "image": "./images/ganondorf.jpeg",
+    "image": "./images/ganondorf.png",
     "clicked": false
   },
   {
     "id": 4,
     "name": "Epona",
-    "image": "./images/epona.jpeg",
+    "image": "./images/epona.png",
     "clicked": false
   },
   {
@@ -32,7 +32,7 @@
   {
     "id": 6,
     "name": "Malon",
-    "image": "./images/malon.jpg",
+    "image": "./images/malon.png",
     "clicked": false
   },
   {
@@ -44,7 +44,7 @@
   {
     "id": 8,
     "name": "Nabooru",
-    "image": "./images/nabooru.jpg",
+    "image": "./images/nabooru.png",
     "clicked": false
   },
   {
@@ -62,7 +62,7 @@
   {
     "id": 11,
     "name": "Happy Mask Salesman",
-    "image": "./images/happymasksalesman.jpeg",
+    "image": "./images/happymasksalesman.png",
     "clicked": false
   },
   {
