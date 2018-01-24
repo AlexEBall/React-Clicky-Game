@@ -17,6 +17,6 @@ body  {
 	line-height: 1.7;
 	color: #fff;
 	padding: 1rem;
-	background: url(./images/background.png);
+	/*background: url(./images/background.png);*/
 	box-sizing: border-box;
 }

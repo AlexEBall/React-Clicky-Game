@@ -1,19 +1,18 @@
 $(document).ready(function() {
 
 	$.backstretch([
-          "assets/images/Lz1VBIH.png",
-          "assets/images/JBBIvIr.png",
-          "assets/images/NVSPDIX.png",
-          "assets/images/PqhM60k.png",
-          "assets/images/UnSC4tP.png",
-          "assets/images/VnCp5xG.png",
-          "assets/images/PQGcPIn.png",
-          "assets/images/X5sQYNy.png",
-          "assets/images/vRKf0IE.png",
-          "assets/images/5gYdXIh.png",
-          "assets/images/OhuSXTl.png",
+          "images/background.png",
+          "images/zelda_castillo.jpg",
+          "images/1200px-Royalfamilytomb.png",
+          "images/Bottom_of_the_Well.png",
+          "images/Dodongo's_Cavern.png",
+          "images/Fire_Temple_(Ocarina_of_Time).png",
+          "images/Great_Fairy_Fountain_(Majora's_Mask).png",
+          "images/Inside_the_Deku_Tree.png",
+          "images/ranch.png",
+          "images/Spirit_Temple.png"
         ], {
-            duration: 12000,
+            duration: 10000,
             fade: 900
         });
 

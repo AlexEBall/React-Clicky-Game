@@ -83,6 +83,9 @@ class App extends Component {
         				<h3 className="rules">Click on an image to earn points, but don't click on any of them more than once!</h3>
         				<h3 className="message">{this.state.message}</h3>
     				</div>
+    				<div className="buttonWrapper">
+    					<img src="images/buttons.png" alt="zelda buttons" />
+    				</div>
 					<div className="heartWrapper">
     				{this.renderHearts()}
     				<Line 

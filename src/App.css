@@ -39,6 +39,12 @@
   font-size: 2rem;
 }
 
+.buttonWrapper {
+  position: absolute;
+  top: 27rem;
+  right: 0;
+}
+
 .heartWrapper {
   top: 30rem;
   left: 1rem;
