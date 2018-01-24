@@ -11,21 +11,39 @@ const Player = props => (
 	        src={props.image}
 	      />
 	    </div>
+	    <div style={styles.content}>
+	    	<ul>
+	    		<li>{props.name}</li>
+	    	</ul>
+	    </div>
   </div>
 );
 
 const styles = {
 	cardStyle: {
-		margin: '0.7rem'
+		background: '#fff',
+		margin: '0.7rem',
+		borderRadius: '0.2rem',
+		margin: '1rem',
+		position: 'relative',
+		width: '32.5rem',
+		boxShadow: '0 .3rem .6rem #999',
+		textAlign: 'left'
 	},
 	imgContainer: {
 		height: '16rem',
 		width: '10rem',
-		textAlign: 'center'
+		textAlign: 'center',
+		overflow: 'hidden'
 	},
 	img: {
 		height: '100%',
 		width: '100%'
+	},
+	content: {
+		paddingLeft: '1rem',
+		paddingRight: '1rem',
+		fontSize: '1.5rem'
 	}
 };
 
