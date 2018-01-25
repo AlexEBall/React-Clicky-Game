@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Line } from 'rc-progress';
 import Wrapper from "./components/Wrapper";
-import Player from './components/Player';
+import Card from './components/Player';
 import Characters from './characters.json';
 import './App.css';
 

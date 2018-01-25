@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Player = props => (
+const Card = props => (
 	<div 
 		style={styles.cardStyle}
 		onClick={() => props.setClicked(props.id)}>
@@ -37,8 +37,8 @@ const styles = {
 		overflow: 'hidden'
 	},
 	img: {
-		height: '100%',
-		width: '100%'
+		// height: '100%',
+		width: '60%'
 	},
 	content: {
 		paddingLeft: '1rem',
@@ -47,4 +47,4 @@ const styles = {
 	}
 };
 
-export default Player;
+export default Card;
