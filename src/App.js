@@ -41,7 +41,7 @@ class App extends Component {
 		} else {
 			cardClicked[0].clicked = true;
 
-			guessesCorrect = guessesCorrect + 2;
+			guessesCorrect = guessesCorrect + 4;
 			message = "Good Job!"
 
 			if (guessesCorrect > topScore) {
@@ -83,15 +83,17 @@ class App extends Component {
         				<h3 className="message">{this.state.message}</h3>
     				</div>
     				<div className="buttonWrapper">
-    					<img src="images/buttons.png" alt="zelda buttons" />
+    					<img className="buttons" src="images/buttons.png" alt="zelda buttons" />
     				</div>
 					<div className="heartWrapper">
     				{this.renderHearts()}
     				<Line 
+						className="progress-bar"
 	        			percent={this.state.guessesCorrect}
-	        			trailWidth="4" 
-	        			strokeWidth="4" 
-	        			strokeColor="#87df6f" />
+	        			trailWidth="8" 
+	        			strokeWidth="8" 
+	        			strokeColor="#87df6f"
+						strokeLinecap="square" />
     				</div>
     			</div>
             	<div className="row">

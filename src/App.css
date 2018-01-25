@@ -3,7 +3,7 @@
 }
 
 .hero {
-  height: 400px;
+  height: 240px;
   background-image: linear-gradient(
     to right bottom,
     rgba(17, 3, 9, 0.6), 
@@ -12,7 +12,9 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  border: 10px solid #714C1D
+  border: 10px solid #714C1D;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .heroText {
@@ -25,7 +27,7 @@
 
 .banner {
   display: block;
-  font-size: 4vw;
+  font-size: 2vw;
   padding-top: 30px;
   font-family: Cinzel Decorative;
   font-weight: 700;
@@ -41,14 +43,18 @@
 
 .buttonWrapper {
   position: absolute;
-  top: 27rem;
-  right: 0;
+  top: 2rem;
+  right: -35rem;
+}
+
+.buttons {
+  height: 11rem;
 }
 
 .heartWrapper {
-  top: 30rem;
-  left: 1rem;
-  width: 50%;
+  top: 2rem;
+  left: -35rem;
+  width: 45%;
   height: 2rem;
   margin-top: -2em;
   font-size: 5px;
@@ -99,4 +105,9 @@
     0 2em 0 2em white,
     0 4em 0 1em white,
     0 6em 0 0 white;
+}
+
+.progress-bar {
+  border-radius: 1rem;
+  border: .5rem solid #fff;
 }
