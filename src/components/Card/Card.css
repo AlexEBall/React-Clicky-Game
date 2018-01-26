@@ -5,11 +5,12 @@
     border-radius: 0.2rem;
     position: relative;
     width: 32.5rem;
-    box-shadow: inset 0 0 75 px rgba(255, 210, 0, 0.3), inset 0 0 20 px rgba(255, 210, 0, 0.4), inset 0 0 30 px rgba(220, 120, 0, 0.8);
+    box-shadow: inset 0 0 7.5rem rgba(255, 210, 0, 0.3), inset 0 0 2rem rgba(255, 210, 0, 0.4), inset 0 0 3rem rgba(220, 120, 0, 0.8);
     text-align: left;
     color: rgba(0, 0, 0, 0.5);
     letter-spacing: 0.05rem;
     line-height: 1.8; 
+    position: relative;
 	}
 
 .imgContainer {
@@ -20,11 +21,18 @@
 	}
 
 .img {
-	width: 60%;
+	width: 70%;
 	}
 
 .content {
     padding-left: 1rem; 
     padding-right: 1rem; 
-    font-size: 1.5rem;
+    position: absolute;
+    right: 0rem;
+    top: 11rem;
+    font-family: 'Cardo', serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #040F0F;
+    text-shadow: .1rem .1rem .1rem #f8f5de, .3rem .3rem .1rem #040F0F;
 	}

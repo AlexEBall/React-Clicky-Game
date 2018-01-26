@@ -8,7 +8,7 @@ import './App.css';
 let topScore = 0;
 let guessesCorrect = 0;
 let hearts = 0;
-let message = "Click a character to begin";
+let message = "";
 
 class App extends Component {
 
@@ -79,7 +79,7 @@ class App extends Component {
     			<div className="hero">
     				<div className="heroText">
     					<h1 className="banner">The Legend of Zelda Click Game</h1>
-        				<h3 className="rules">Click on an image to earn points, but don't click on any of them more than once!</h3>
+        				<h3 className="rules">Save Hyrule! Choose wisely.</h3>
         				<h3 className="message">{this.state.message}</h3>
     				</div>
     				<div className="buttonWrapper">
