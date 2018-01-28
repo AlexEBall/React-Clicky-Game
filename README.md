@@ -14,7 +14,7 @@ Click on any of the character cards. They will be reshuffled and you'll have to 
 
 Keep trying to max out your hearts and magic power. 
 
-Live [demo](https://mysterious-reaches-59628.herokuapp.com/)
+Live [demo](https://react-zelda-game.herokuapp.com/)
 
 ## Requirements
 For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
